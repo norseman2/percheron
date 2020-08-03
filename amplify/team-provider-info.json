@@ -10,6 +10,11 @@
             "StackName": "amplify-percheron-dev-173324",
             "StackId": "arn:aws:cloudformation:ca-central-1:575704994123:stack/amplify-percheron-dev-173324/cc5dfb20-d507-11ea-bb1d-02e4a881b200",
             "AmplifyAppId": "d1hfbfyuc7pidd"
+        },
+        "categories": {
+            "auth": {
+                "percheron687bc299": {}
+            }
         }
     }
 }

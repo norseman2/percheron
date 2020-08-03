@@ -69,7 +69,7 @@
 				"Timeout": "25",
 				"Code": {
 					"S3Bucket": "amplify-percheron-dev-173324-deployment",
-					"S3Key": "amplify-builds/percheronbackend-70596d6838437a39396c-build.zip"
+					"S3Key": "amplify-builds/percheronbackend-6b5365466b6a6235586a-build.zip"
 				}
 			}
 		},

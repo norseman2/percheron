@@ -63,7 +63,7 @@ app.get('/reservations', function(req, res) {
       DateDepartDebut: "2020-07-20 00:00:00",
       DateDepartFin: "2020-12-31 23:59:59",
       PECNom: "JULES CAILLE AUTO",
-      AgenceDepart: "CAILLEPORT"
+      AgenceDepart: ""
     }
   ).then(response=>{
     res.json({
