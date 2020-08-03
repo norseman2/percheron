@@ -1,0 +1,34 @@
+{
+    "paths": [
+        {
+            "name": "/reservations",
+            "lambdaFunction": "percheronbackend",
+            "privacy": {
+                "open": true
+            }
+        }
+    ],
+    "resourceName": "percheronapi",
+    "apiName": "percheronapi",
+    "functionArns": [
+        {
+            "lambdaFunction": "percheronbackend"
+        }
+    ],
+    "privacy": {
+        "auth": 0,
+        "unauth": 0,
+        "authRoleName": "amplify-percheron-dev-173324-authRole",
+        "unAuthRoleName": "amplify-percheron-dev-173324-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "percheronbackend",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ]
+}
