@@ -22,7 +22,7 @@ function App() {
   },[])
   return (
     <div className="App">
-      <h3 className="Jca-title">Jules Caillé Auto</h3>
+      <h3 className="Jca-title">WWW Auto</h3>
       <table>
         <thead>
           <tr>
